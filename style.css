@@ -37,15 +37,29 @@ nav{
     padding:18px 25px;
 }
 
-.logo{
-    color:white;
-    font-size:28px;
-    font-weight:bold;
-    text-decoration:none;
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
 }
 
-.logo span{
-    color:#FFD54F;
+.logo img {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.logo span {
+    color: white;
+}
+
+.logo span::first-letter {
+    color: #FFD54F;
 }
 
 nav ul{
